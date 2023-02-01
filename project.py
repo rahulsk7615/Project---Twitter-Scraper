@@ -34,4 +34,4 @@ def convert_df_json(df):
 json=convert_df_json(tdf)
 
 st.download_button(label="Download data as csv",data=csv,file_name='scraper.csv')
-st.download_button(label="Download data as Json",data-json,file_name='scraper.json')
+st.download_button(label="Download data as Json",data=json,file_name='scraper.json')
